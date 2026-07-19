@@ -85,7 +85,7 @@ class Imageprocessing:
         for category in os.listdir(self.inp_dir):
             category_path = os.path.join(self.inp_dir,category)
 
-            if os.path.isdir(category_path):
+            if os.path.isdideveloper(category_path):
                 for class_name in os.listdir(category_path):
                     class_path = os.path.join(category_path, class_name)
 
